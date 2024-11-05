@@ -1,0 +1,9 @@
+name: "Locate signtool.exe action"
+description: "Locate signtool.exe on Windows."
+outputs:
+  path:
+    description: "Path to signtool.exe"
+
+runs:
+  using: "node20"
+  main: "dist/index.js"
